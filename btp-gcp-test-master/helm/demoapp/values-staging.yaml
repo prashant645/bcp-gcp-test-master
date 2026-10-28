@@ -1,0 +1,5 @@
+# STAGING / pre-prod - deployed automatically from `release/*`.
+# Promotes the exact digest that was verified in dev. Only these values differ.
+replicaCount: 1
+apirule:
+  host: demoapp-staging.a35836f.stage.kyma.ondemand.com

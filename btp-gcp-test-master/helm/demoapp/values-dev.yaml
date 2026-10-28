@@ -1,0 +1,5 @@
+# DEV - deployed automatically when a PR merges into `develop`.
+# Receives the candidate digest built on the feature branch; nothing is rebuilt.
+replicaCount: 1
+apirule:
+  host: demoapp-dev.a35836f.stage.kyma.ondemand.com

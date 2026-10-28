@@ -1,0 +1,12 @@
+# PROD - deployed from `master`, behind the `production` environment
+# approval gate. Promotes the exact digest that was verified in staging.
+replicaCount: 2
+apirule:
+  host: demoapp.a35836f.stage.kyma.ondemand.com
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 200m
+    memory: 128Mi
